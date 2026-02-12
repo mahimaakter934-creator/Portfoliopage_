@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+ul li{
+    float:right;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+background-color: #3498db;
+}
+ul .logo{
+    float: left;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+#home{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+.profile-img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#about{
+    text-align: center;
+    padding: 50px 20px;
+}
+#skills{
+    text-align: center;
+    padding: 50px 20px;
+}
+#projects{
+    text-align: center;
+    padding: 50px 20px;
+}
+h2{
+    text-align: center;
+}
+.skills-container{
+    display:  flex;
+    justify-content: center;
+    gap: 20px;
+}
+.skill-card{
+    background-color: #3498db;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 6px;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+.project-card{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#contact{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
